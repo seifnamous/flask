@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <div class="jumbotron text-center">
+    <h1>Welcome to salary predictor</h1>
+    <p class="lead">How many years of experience do you have ?</p>
+    <form action="" method="post">{{ form.csrf }}
+	<div class="input text">{{ form.years.label }} {{ form.years }}</div>
+	<div class="input submit"><input type="submit" value="Submit"></div>
+	</form>
+  </div>
+
+{% endblock %}
+
