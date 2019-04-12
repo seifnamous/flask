@@ -1,0 +1,8 @@
+DROP DATABASE IF EXISTS User;
+CREATE DATABASE User;
+USE User;
+
+CREATE TABLE users
+(
+username VARCHAR(20)
+)

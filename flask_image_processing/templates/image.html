@@ -1,0 +1,16 @@
+<!DOCTYPE=html>
+<html>
+<head>
+    <h1>List of images</h1>>
+        
+</head>
+<body>
+    {% for img in list_image %}
+    <img src="../static/assets/{{img}}" alt="{{img}}">
+    {% endfor %}
+    {% for img in list_filtered_image %}
+    <img src="../static/train/{{img}}" alt="{{img}}">
+    {% endfor %}
+</body>
+</html>
+
